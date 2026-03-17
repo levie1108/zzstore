@@ -1,0 +1,14 @@
+/* CSS variables for JS inline styles if needed, but mostly using classes from index.css */
+.container {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 1rem !important;
+  }
+  
+  h1 {
+    font-size: 1.8rem !important;
+  }
+}
