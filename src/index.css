@@ -243,41 +243,50 @@ h1, h2, h3, h4 {
 
 /* Large Font Mode */
 :root.large-font body {
-  font-size: 1.25rem;
-}
-
-:root.large-font h1 {
-  font-size: 3rem !important;
-}
-
-:root.large-font h3 {
   font-size: 1.5rem;
 }
 
+:root.large-font h1 {
+  font-size: 3.5rem !important;
+}
+
+:root.large-font h3 {
+  font-size: 1.85rem;
+}
+
+:root.large-font p,
+:root.large-font label {
+  font-size: 1.35rem;
+}
+
 :root.large-font .input-field {
-  font-size: 1.25rem;
-  padding: 0.8rem 1.2rem;
+  font-size: 1.5rem;
+  padding: 1rem 1.4rem;
 }
 
 :root.large-font .btn {
-  font-size: 1.1rem;
-  padding: 0.75rem 1.4rem;
+  font-size: 1.3rem;
+  padding: 0.85rem 1.6rem;
 }
 
 :root.large-font .item-name {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 :root.large-font .price-data {
-  font-size: 2rem !important;
+  font-size: 2.5rem !important;
 }
 
 :root.large-font .badge {
-  font-size: 0.9rem;
-  padding: 0.35rem 0.9rem;
+  font-size: 1.1rem;
+  padding: 0.4rem 1rem;
 }
 
 :root.large-font .pagination-btn {
-  font-size: 1.1rem;
-  padding: 0.65rem 1.2rem;
+  font-size: 1.3rem;
+  padding: 0.75rem 1.4rem;
+}
+
+:root.large-font .pagination {
+  font-size: 1.3rem;
 }
